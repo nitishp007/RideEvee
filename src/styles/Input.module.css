@@ -1,0 +1,45 @@
+.main {
+   margin: 5px 0;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.input {
+
+    box-sizing: border-box;
+    border: none;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(55, 55, 55, 0.34);
+    border-bottom: 2px solid rgba(55, 55, 55, 0.34);
+}
+
+.input:focus {
+    outline: none;
+    /* Remove the default outline */
+    color: black;
+    border-bottom: 2px solid rgba(21, 21, 21, 0.34);
+}
+
+.label {
+    color: #111;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 3px;
+}

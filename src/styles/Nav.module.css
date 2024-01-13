@@ -1,0 +1,24 @@
+.main{
+padding: 0px 0px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+height: fit-content;
+align-items: center;
+
+
+}
+.second{
+    width: 14%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content:space-around;
+    right: 0;
+}
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+    }
+  }

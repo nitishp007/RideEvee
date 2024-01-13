@@ -1,0 +1,12 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second{
+    margin-top: 10px;
+}
+
+.third{
+    margin-top: 35px;
+}

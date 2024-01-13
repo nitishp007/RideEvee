@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100vw;
+    align-items: center;
+}
+.heading{
+    color: #FFF;
+    font-family: 'Round Mplus 1c',sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: 49px 0px;
+    margin-bottom: 55px;
+}

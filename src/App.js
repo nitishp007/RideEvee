@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Banner from './Component/Banner.jsx';
+import ChooseAc from './Component/ChooseAc.jsx';
+import Navbar from './Component/Nav.jsx'
+import Car from './Component/Car.jsx';
+import Oneway from './Component/Oneway.jsx';
+import Discovery from './Component/Discovery.jsx';
+import TableComponent from './Component/TableComponent.jsx';
+import Yatri from './Component/Yatri.jsx';
+import Footer from './Component/Footer.jsx';
+import Steering from './Component/Steering.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{font:'lato'}}>
+       <Navbar/>
+       <Banner/>
+       <Car/>
+       <ChooseAc/>
+       <Steering/>
+       <Oneway/>
+       <Discovery/>
+       <TableComponent/>
+       <Yatri/>
+       <Footer/>
     </div>
   );
 }
