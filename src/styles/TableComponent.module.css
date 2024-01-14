@@ -3,3 +3,10 @@
     width: 100%;
     padding-bottom: 40px;
 }
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        
+    }
+  }

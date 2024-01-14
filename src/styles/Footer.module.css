@@ -58,3 +58,10 @@
     line-height: 26px;
     letter-spacing: 0em;
 }
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        
+    }
+  }

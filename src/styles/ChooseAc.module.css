@@ -40,3 +40,9 @@
     color: #FFF;
 }
 
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        
+    }
+  }

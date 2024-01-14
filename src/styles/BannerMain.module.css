@@ -70,3 +70,9 @@
     font-weight: 700;
     line-height: normal;
 }
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;  
+    }
+  }

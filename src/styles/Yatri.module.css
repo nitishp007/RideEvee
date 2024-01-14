@@ -28,3 +28,10 @@
     padding: 2px;
 
 }
+
+@media (max-width: 500px) {
+    .main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

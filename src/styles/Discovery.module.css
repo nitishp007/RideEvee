@@ -28,3 +28,10 @@
     text-align: left;
     padding: 10px 75px ;
 }
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        
+    }
+  }

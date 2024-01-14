@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "../styles/ChooseAc.module.css"
-import Main from './Tabs/Main';
 
 const ChooseAc = () => {
   return (

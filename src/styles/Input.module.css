@@ -43,3 +43,10 @@
     line-height: normal;
     margin-bottom: 3px;
 }
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        
+    }
+  }

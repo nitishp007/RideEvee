@@ -20,5 +20,13 @@ align-items: center;
 @media (max-width: 500px) {
     .main {
         flex-direction: column;
+
+    }
+  }
+
+  @media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        
     }
   }

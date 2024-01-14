@@ -7,3 +7,10 @@
     padding: 15px 0;
     height: 70px;
 }
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        
+    }
+  }

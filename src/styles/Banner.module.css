@@ -20,3 +20,14 @@
     padding: 49px 0px;
     margin-bottom: 55px;
 }
+
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column; 
+        height: 1000px;
+    }
+    .heading{
+        font-size: 17px;
+    }
+  }

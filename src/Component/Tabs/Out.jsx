@@ -9,15 +9,15 @@ const Out = () => {
   return (
     <div className={styles.main}>
         <div className={styles.tabGroup}>
-            <div className={tab==1? styles.tabHighlighted :styles.tab} onClick={()=>setTab(1)}>
+            <div className={tab===1? styles.tabHighlighted :styles.tab} onClick={()=>setTab(1)}>
                 Oneway
             </div>
-            <div className={tab==2? styles.tabHighlighted :styles.tab} onClick={()=>setTab(2)}>
+            <div className={tab===2? styles.tabHighlighted :styles.tab} onClick={()=>setTab(2)}>
                Round Trip
             </div>
             
         </div>
-        {tab==1?<OnewayTab/> :<Round/>}
+        {tab===1?<OnewayTab/> :<Round/>}
       
     </div>
   )

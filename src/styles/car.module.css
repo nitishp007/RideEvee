@@ -10,3 +10,10 @@
 .third{
     margin-top: 35px;
 }
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        
+    }
+  }
