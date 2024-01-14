@@ -6,15 +6,15 @@ import carhand from "../assets/carhand.png"
 const Car = () => {
   return (
     <div className={styles.main}>
-        <div className={styles.first}>
+        {/* <div className={styles.first}> */}
             <img src={car} alt="" />
-        </div>
-        <div className={styles.second}>
+        {/* </div> */}
+        {/* <div className={styles.second}> */}
             <img src={carhand} alt="" />
-        </div>
-        <div className={styles.third}>
+        {/* </div> */}
+        {/* <div className={styles.third}> */}
             <img src={roadcar} alt="" />
-        </div>
+        {/* </div> */}
     </div>
   )
 }

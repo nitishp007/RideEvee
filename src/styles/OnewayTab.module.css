@@ -24,6 +24,12 @@
 @media (max-width: 500px) {
     .main {
         flex-direction: column;
-        
+        align-items: center;
+    }
+    .first {
+        flex-wrap: wrap;
+    }
+    .second {
+        flex-wrap: wrap;
     }
   }

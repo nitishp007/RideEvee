@@ -36,6 +36,12 @@ li {
 @media (max-width: 500px) {
     .main {
         flex-direction: column;
-        
+    }
+
+    .head {
+        font-size: 30px;
+    }
+    .wrap{
+        font-size: 15px;
     }
   }
