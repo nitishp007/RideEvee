@@ -7,8 +7,8 @@ function Nav() {
 
   return (
     <div className={styles.main}>
-        <img src="./Logo.png" alt="" height={50}/>
-        <img src="./twentyfour.png" height={33}/>
+        <img className={styles.first} src="./Logo.png" alt="" height={50}/>
+        <img className={styles.sec} src="./twentyfour.png" height={33}/>
         <div className={styles.second}>
             <img src="./download.png" alt="" height={43}/>
             <Logout/>

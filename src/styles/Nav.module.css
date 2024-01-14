@@ -49,10 +49,14 @@ align-items: center;
   .navLinks[data-open] {
     transform: translateX(0);
   }
-  
-  /* Responsive styles */
-  @media (mac-width: 360px) {
-  
+
+  @media (max-width: 360px) {
+    .first{
+      height: 33px;
+    }
+    .sec{
+      height: 22px;
+    }
     .second {
       display: none;
     }

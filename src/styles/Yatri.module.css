@@ -29,9 +29,16 @@
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 360px) {
     .main {
         margin-left: auto;
         margin-right: auto;
+    }
+    .first{
+        font-size: 14px;
+    }
+
+    .second{
+        font-size: 11px;
     }
   }

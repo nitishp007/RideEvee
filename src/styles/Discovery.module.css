@@ -34,4 +34,16 @@
         flex-direction: column;
         
     }
+    .first{
+        margin-top: 1px ;
+        gap: 0;
+        font-size: 14px;
+    }
+    .second{
+        padding-left: 10px;
+    }
+    .secA{
+        display: flex;
+        flex-direction: row;
+    }
   }
