@@ -35,7 +35,7 @@
    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.372);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .main {
       flex-direction: column;
       

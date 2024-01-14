@@ -3,7 +3,7 @@ import styles from "../styles/ChooseAc.module.css"
 
 const ChooseAc = () => {
   return (
-    <div className={styles.main} style={{backgroundImage:"url('./building.png')"}}>
+    <div className={styles.main} style={{backgroundImage:"url('./building.png')", objectFit:"cover"}}>
         <div className={styles.heading}>
             <div className={styles.header}>
                  Why choose AC Bus or AC Train for your One-way Journey?

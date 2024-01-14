@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items: center;
     background-color: white;
-    /* width: 1151px;   */
+    width: 100%;  
     cursor: pointer; 
-    height: 100px;
+    /* height: 100px; */
 
 }
 
@@ -51,9 +51,24 @@
     line-height: normal;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .main {
         flex-direction: column;
         min-height: 246px;
+        width: 100%;
+        margin: 10px 0;
+        
+    }
+    .tab{
+        font-size: 10px;
+        width: auto;
+        height: auto;
+        padding: 5px 15px;
+    }
+    .tabHighlighted{
+        font-size: 10px;
+        width: auto;
+        height: auto;
+        padding: 5px 15px;
     }
   }

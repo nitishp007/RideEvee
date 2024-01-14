@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    padding: 15px 0;
 }
 
 .first {
@@ -48,6 +49,8 @@
 .input{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    height: 33px;
+    
 }
 .fourth {
     display: flex;
@@ -59,9 +62,25 @@
     letter-spacing: 0em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .main {
         flex-direction: column;
         
+    }
+    .sec{
+        font-size: 12px;
+    }
+    .input{
+        width: 90px;
+        height: 25px;
+    }
+    .arrow{
+        height: 13px;
+        width: 16px;
+        padding-left: 30%;
+        padding-top:12%;
+    }
+    .forth{
+        font-size: 13px;
     }
   }

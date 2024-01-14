@@ -1,6 +1,7 @@
 .main {
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .first {
@@ -29,16 +30,32 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 700px) {
     .main {
-        margin-left: auto;
-        margin-right: auto;
+        flex-direction: column;
+        padding: 10px 20px;
+        
     }
     .first{
-        font-size: 14px;
+       
+        gap: 0;
+        font-size: 19px;
+       padding: 10px;
+        line-height: 20px;
     }
-
     .second{
-        font-size: 11px;
+        padding: 15px;
+    }
+    .second ul{
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .secA{
+        display: flex;
+        flex-direction: row;
+    }
+    .second li{
+        margin-bottom: 15px;
+        text-align: justify;
     }
   }

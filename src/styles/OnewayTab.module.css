@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-   margin: 10px 0;
+    margin: 10px 0;
 }
 
 .first{
@@ -21,15 +21,30 @@
     width: 48%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .main {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     .first {
         flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90%;
+    }
+    .first svg{
+        padding-top:10px ;
     }
     .second {
         flex-wrap: wrap;
+        flex-direction: column;
+        width: 90%;
+    }
+    .first input {
+        width: 100% !important;
+    }
+    .second input {
+        width: 100% !important;
     }
   }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styles from "../styles/Nav.module.css"
 import Logout from './Logout'
+import { IoMdClose } from "react-icons/io";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,8 @@ function Nav() {
         {isOpen && (
             <div data-open={isOpen} className={styles.navLinks}>
                 {/* Add your navigation links here */}
-                <img src="./download.png" alt="" width={43} height={43}/>
+                <IoMdClose className={styles.close} onClick={() => setIsOpen(!isOpen)} size={35}/>
+                <img src="./download.png" alt="" width={63} />
               <Logout/>
             </div>
         )}

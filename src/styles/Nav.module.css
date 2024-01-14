@@ -1,5 +1,5 @@
 .main{
-padding: 0px 0px;
+padding: 10px 20px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -50,7 +50,10 @@ align-items: center;
     transform: translateX(0);
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 730px) {
+    .main{
+      padding: 10px 10px;
+    }
     .first{
       height: 33px;
     }
@@ -68,6 +71,18 @@ align-items: center;
   
     .navLinks {
       display: flex;
-        flex-direction: column;
+      flex-direction: column;
+      width: 100vw;
+      
+      height: 170px;
+      justify-content: space-around;
+      align-items: center;
+      top: 0;
+
+    }
+    .close{
+      right: 0;
+      align-self: flex-end;
+     
     }
   }

@@ -28,22 +28,34 @@
     text-align: left;
     padding: 10px 75px ;
 }
-
-@media (max-width: 500px) {
+li{
+    margin-bottom: 10px;
+}
+@media (max-width: 700px) {
     .main {
         flex-direction: column;
+        padding: 20px
         
     }
     .first{
-        margin-top: 1px ;
+       
         gap: 0;
         font-size: 14px;
+       padding: 10px;
+        line-height: 20px;
     }
     .second{
-        padding-left: 10px;
+        padding: 15px;
+    }
+   .second ul{
+        padding: 0 0;
+        margin: 0 0;
     }
     .secA{
         display: flex;
         flex-direction: row;
+    }
+    .second li{
+        margin-bottom: 15px;
     }
   }
