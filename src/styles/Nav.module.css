@@ -51,7 +51,7 @@ align-items: center;
   }
   
   /* Responsive styles */
-  @media (max-width: 768px) {
+  @media (mac-width: 360px) {
   
     .second {
       display: none;
